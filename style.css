@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+
+body {
+    background-image: url('./images/bg-contact.jpg');
+    background-size: cover;
+}  
+  
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container h1 {
+    color: #3d7eff;
+    margin-bottom: 20px;
+  }
+  
+  .container input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #3d7eff;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .container input::placeholder{
+    color: #3d7eff;
+  }
+  
+  .container button {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #3d7eff;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #3d7eff;
+    color: white;
+    cursor: pointer;
+  }
+
+  table {
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8px;
+    display: none;
+
+  }
+
+  table th {
+    font-size: 24px;
+    color:#3d7eff;
+    
+  }
+
+  table td {
+    font-size: 20px;
+    padding: 8px;
+    margin-right: 5px;
+    border-bottom: 2px solid #000;
+    
+  }
+  
+  
